@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "555799599069",
+    "project_id": "chavelin-4d317",
+    "storage_bucket": "chavelin-4d317.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555799599069:android:a2800c6a29e8e4274b4834",
+        "android_client_info": {
+          "package_name": "com.example.chavelin_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzjANvh23IpidzjpN5w4Absim2uaUS36Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
