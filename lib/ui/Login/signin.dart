@@ -1,3 +1,4 @@
+import 'package:chavelin_app/page/homepage_content.dart';
 import 'package:chavelin_app/ui/Login/forgotpw.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -28,6 +29,11 @@ class _SigninState extends State<Signin> {
       // Đăng nhập thành công
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Đăng nhập thành công!')),
+      );
+
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => HomepageContent()),
       );
 
       // Điều hướng sang màn hình chính hoặc màn hình khác
